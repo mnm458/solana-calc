@@ -44,6 +44,11 @@ describe('my calculator dapp', () => {
   });
 
   it('subtraction', async () => {
+    const tx = await calculator_program.rpc.subtraction(new anchor.BN(5), new anchor.BN(6), {
+      accounts: { 
+        calculator: calculator_keypair.publicKey
+      }
+    });
    
   });
 
