@@ -11,5 +11,7 @@ describe('my calculator dapp', () => {
   const calculator_keypair = anchor.web3.Keypair.generate();
   const calculator_program = anchor.workspace.Calculatordapp;
 
+  // console.log('\n\n\ncalculator_program: ------------------->', calculator_program, '\n\n\n');
+  console.log('\n\n\ncalculator_keypair.publicKey: ------------------->', calculator_keypair.publicKey.toBase58(), '\n');
     
 });
