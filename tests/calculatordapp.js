@@ -55,6 +55,11 @@ describe('my calculator dapp', () => {
   });
 
   it('multiplication', async () => {
+    const tx = await calculator_program.rpc.multiplication(new anchor.BN(5), new anchor.BN(6), {
+      accounts: { 
+        calculator: calculator_keypair.publicKey
+      }
+    });
    
   });
 
