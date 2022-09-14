@@ -43,6 +43,10 @@ describe('my calculator dapp', () => {
     assert.ok(account.result.eq(new anchor.BN(11)));
   });
 
+  it('subtraction', async () => {
+   
+  });
+
 
 
 
