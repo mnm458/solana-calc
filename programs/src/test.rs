@@ -36,3 +36,12 @@ pub struct Create<'info> {
     pub user: Signer<'info>,
     pub system_program: Program<'info, System>,
 }
+
+
+struct CampaignDetails {
+    pub admin: Pubkey,
+    pub name: String,
+    pub description: String,
+    pub image_link: String,
+    pub amount_donated: u64,
+}
