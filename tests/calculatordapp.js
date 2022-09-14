@@ -54,7 +54,9 @@ describe('my calculator dapp', () => {
     assert.ok(account.result.eq(new anchor.BN(-1)));
   });
 
-
+  it('multiplication', async () => {
+   
+  });
 
 
 });
