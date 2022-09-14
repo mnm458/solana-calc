@@ -33,7 +33,12 @@ describe('my calculator dapp', () => {
   });
 
   it('addition', async () => {
-  
+    const tx = await calculator_program.rpc.addition(new anchor.BN(5), new anchor.BN(6), {
+      accounts: { 
+        calculator: calculator_keypair.publicKey
+      }
+    });
+   
   });
 
 
