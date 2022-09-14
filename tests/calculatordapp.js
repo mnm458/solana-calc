@@ -65,7 +65,7 @@ describe('my calculator dapp', () => {
     assert.ok(account.result.eq(new anchor.BN(30)));
   });
 
-  it('division', async () => {
+ it('division', async () => {
     const tx = await calculator_program.rpc.division(new anchor.BN(26), new anchor.BN(5), {
       accounts: { 
         calculator: calculator_keypair.publicKey
@@ -73,6 +73,7 @@ describe('my calculator dapp', () => {
     });
     console.log("Create new calculator account..!", tx);
     const account = await calculator_program.account.calculator.fetch(calculator_keypair.publicKey);
+    assert.ok(account.result.eq(new anchor.BN(5)));
    
   });
 });
