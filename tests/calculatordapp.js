@@ -28,5 +28,6 @@ describe('my calculator dapp', () => {
       signers: [calculator_keypair] 
     });
     console.log("Create new calculator account..!", tx);
+    const account = await calculator_program.account.calculator.fetch(calculator_keypair.publicKey);
   });
 });
