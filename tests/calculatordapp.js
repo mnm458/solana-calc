@@ -19,6 +19,13 @@ describe('my calculator dapp', () => {
 
   it('create mycalculator account', async () => {
     // Add your test here.
-
+    const tx = await calculator_program.rpc.create("Create new calculator account..!", {
+      accounts: { 
+        calculator: calculator_keypair.publicKey, 
+        user: provider.wallet.publicKey, 
+        systemProgram: SystemProgram.programId
+      },
+      signers: [calculator_keypair] 
+    });
   });
 });
