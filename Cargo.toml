@@ -10,3 +10,4 @@ name = "calculatordapp"
 
 [features]
 no-entrypoint = []
+no-idl = []
