@@ -27,3 +27,12 @@ pub mod program {
     }
    
 }
+
+#[derive(Accounts)]
+pub struct Create<'info> {
+    #[account(init, payer = user, space = 256)]
+    pub campaign_details: Account<'info, CampaignDetails>,
+    #[account(mut)]
+    pub user: Signer<'info>,
+    pub system_program: Program<'info, System>,
+}
