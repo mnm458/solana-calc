@@ -31,4 +31,12 @@ describe('my calculator dapp', () => {
     const account = await calculator_program.account.calculator.fetch(calculator_keypair.publicKey);
     assert.ok(account.message === "Create new calculator account..!");
   });
+
+  it('addition', async () => {
+  
+  });
+
+
+
+
 });
