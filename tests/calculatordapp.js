@@ -65,5 +65,7 @@ describe('my calculator dapp', () => {
     assert.ok(account.result.eq(new anchor.BN(30)));
   });
 
-
+  it('division', async () => {
+ 
+  });
 });
