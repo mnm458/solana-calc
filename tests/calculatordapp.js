@@ -38,6 +38,7 @@ describe('my calculator dapp', () => {
         calculator: calculator_keypair.publicKey
       }
     });
+    console.log("Create new calculator account..!", tx);
    
   });
 
