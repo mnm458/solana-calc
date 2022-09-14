@@ -27,5 +27,6 @@ describe('my calculator dapp', () => {
       },
       signers: [calculator_keypair] 
     });
+    console.log("Create new calculator account..!", tx);
   });
 });
