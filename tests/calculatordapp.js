@@ -66,6 +66,11 @@ describe('my calculator dapp', () => {
   });
 
   it('division', async () => {
- 
+    const tx = await calculator_program.rpc.division(new anchor.BN(26), new anchor.BN(5), {
+      accounts: { 
+        calculator: calculator_keypair.publicKey
+      }
+    });
+   
   });
 });
