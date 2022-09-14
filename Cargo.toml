@@ -12,3 +12,4 @@ name = "calculatordapp"
 no-entrypoint = []
 no-idl = []
 cpi = ["no-entrypoint"]
+default = []
