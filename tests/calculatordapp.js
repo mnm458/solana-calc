@@ -74,6 +74,6 @@ describe('my calculator dapp', () => {
     console.log("Create new calculator account..!", tx);
     const account = await calculator_program.account.calculator.fetch(calculator_keypair.publicKey);
     assert.ok(account.result.eq(new anchor.BN(5)));
-   
+    assert.ok(account.remander.eq(new anchor.BN(1)));
   });
 });
