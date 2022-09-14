@@ -1,0 +1,59 @@
+Streaming transaction logs mentioning HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g. Confirmed commitment
+Transaction executed in slot 140188056:
+  Signature: 52jTJt9qyTBYYHMVan8nDVMAYsWWCUz6vfLGbXAy3vADT95Zo53ffD2wCmsfSfkfrkkUzvo2MiEyXkrzERWFFMoS
+  Status: Ok
+  Log Messages:
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g invoke [1]
+    Program log: Instruction: Create
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g consumed 6400 of 1400000 compute units
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g success
+Transaction executed in slot 140188059:
+  Signature: 4RSdjSR9dFnuqFR2rycLzZV9oSG2d6ecServWJ4t3T2jS6vwLxVr5uYmtp2npjW6FyjfoLH5AJ2jW5juFo9wzVi6
+  Status: Ok
+  Log Messages:
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g invoke [1]
+    Program log: Instruction: Addition
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g consumed 2205 of 1400000 compute units
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g success
+Transaction executed in slot 140188061:
+  Signature: 4RSdjSR9dFnuqFR2rycLzZV9oSG2d6ecServWJ4t3T2jS6vwLxVr5uYmtp2npjW6FyjfoLH5AJ2jW5juFo9wzVi6
+  Status: Ok
+  Log Messages:
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g invoke [1]
+    Program log: Instruction: Addition
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g consumed 2205 of 1400000 compute units
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g success
+Transaction executed in slot 140188068:
+  Signature: 2E2uh5vxFb264ghKrdi6Pe1kLuTW25D7BK4wJPjrozZx7P7e9pQMYxKHNq1LG9w5CS8eLU9Ueyj3ni8f5L4joBvu
+  Status: Ok
+  Log Messages:
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g invoke [1]
+    Program log: Instruction: Subtraction
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g consumed 2204 of 1400000 compute units
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g success
+Transaction executed in slot 140188074:
+  Signature: 3UEVcGnhm8PCratWDh48h5MF5BmZbJ2f1EvccZRCCw1hrqD3uRxyKxWCiH9BvW8mmLB6fF1uK3UDXJG33TdSaNZN
+  Status: Ok
+  Log Messages:
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g invoke [1]
+    Program log: Instruction: Multiplication
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g consumed 2203 of 1400000 compute units
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g success
+Transaction executed in slot 140188077:
+  Signature: 372W4HYWCtjj3URu8PUU98zomwoc7ng43zgjq82RTiBuAS8jUywaZj8PqfJTixfKuR3U5oRyd7ZLVAxE64G7Y7Fk
+  Status: Ok
+  Log Messages:
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g invoke [1]
+    Program log: Instruction: Division
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g consumed 2212 of 1400000 compute units
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g success
+Transaction executed in slot 140188080:
+  Signature: 372W4HYWCtjj3URu8PUU98zomwoc7ng43zgjq82RTiBuAS8jUywaZj8PqfJTixfKuR3U5oRyd7ZLVAxE64G7Y7Fk
+  Status: Ok
+  Log Messages:
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g invoke [1]
+    Program log: Instruction: Division
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g consumed 2212 of 1400000 compute units
+    Program HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g success
