@@ -50,6 +50,7 @@ describe('my calculator dapp', () => {
       }
     });
     console.log("Create new calculator account..!", tx);
+    const account = await calculator_program.account.calculator.fetch(calculator_keypair.publicKey);
    
   });
 
