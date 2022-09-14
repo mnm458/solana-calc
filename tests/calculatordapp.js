@@ -14,4 +14,5 @@ describe('my calculator dapp', () => {
   // console.log('\n\n\ncalculator_program: ------------------->', calculator_program, '\n\n\n');
   console.log('\n\n\ncalculator_keypair.publicKey: ------------------->', calculator_keypair.publicKey.toBase58(), '\n');
   console.log('provider.wallet.publicKey: ------------------->', provider.wallet.publicKey.toBase58(), '\n\n');  
+  // console.log('\n\n\nSystemProgram.programId: ------------------->', SystemProgram.programId, '\n\n\n');
 });
