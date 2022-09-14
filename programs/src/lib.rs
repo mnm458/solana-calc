@@ -70,3 +70,11 @@ pub struct Division<'info> {
     #[account(mut)]
     pub calculator: Account<'info, Calculator>,
 }
+
+
+#[account]
+pub struct Calculator {
+    message: String,
+    result: i64,
+    remander: i64,
+}
